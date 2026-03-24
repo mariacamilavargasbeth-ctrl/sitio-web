@@ -6,7 +6,7 @@ body {
     text-align: center;
 }
 
-/* esquinas amarillas */
+/* se supone q esquinas amarillas */
 body::before, body::after {
     content: "";
     position: fixed;

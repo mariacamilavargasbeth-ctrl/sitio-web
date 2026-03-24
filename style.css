@@ -1,20 +1,61 @@
-<link rel="stylesheet" href="style.css">
 body {
-    background-color: pink; /* fondo rosita */
+    background-color: #FFFFFF; /* fondo blanco */
     font-family: Arial;
     font-size: 12px;
-    text-align: center; /* centra el texto */
-    margin-top: 100px; /* baja el texto un poquito */
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
-<body style="background-color:pink; font-family:Arial; font-size:12px; text-align:center;">body
-{
-    background-color: pink;
-    font-family: Arial;
-    font-size: 12px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+/* texto azul */
+h1, p {
+    color: #002E52;
 }
-<script src="script.js"></script>
+
+/* barra o esquinas amarillas */
+.borde-amarillo {
+    border: 10px solid #FFA700;
+    padding: 20px;
+    margin: 50px;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="borde-amarillo">
+        <h1>Colores principales</h1>
+        <p>Esta es mi página con estilo 😎</p>
+    </div>
+
+</body>
+</html>
+body {
+    background-color: white;
+    font-family: Arial;
+    font-size: 12px;
+    color: #002E52;
+    text-align: center;
+}
+
+/* esquinas */
+body::before, body::after {
+    content: "";
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: #FFA700;
+}
+
+body::before {
+    top: 0;
+    left: 0;
+}
+
+body::after {
+    bottom: 0;
+    right: 0;
+}

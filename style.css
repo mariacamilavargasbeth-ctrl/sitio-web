@@ -1,39 +1,4 @@
 body {
-    background-color: #FFFFFF; /* fondo blanco */
-    font-family: Arial;
-    font-size: 12px;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-/* texto azul */
-h1, p {
-    color: #002E52;
-}
-
-/* barra o esquinas amarillas */
-.borde-amarillo {
-    border: 10px solid #FFA700;
-    padding: 20px;
-    margin: 50px;
-}
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Mi web</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <div class="borde-amarillo">
-        <h1>Colores principales</h1>
-        <p>Esta es mi página con estilo 😎</p>
-    </div>
-
-</body>
-</html>
-body {
     background-color: white;
     font-family: Arial;
     font-size: 12px;
@@ -41,7 +6,7 @@ body {
     text-align: center;
 }
 
-/* esquinas */
+/* esquinas amarillas */
 body::before, body::after {
     content: "";
     position: fixed;

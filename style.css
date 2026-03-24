@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="style.css">
+body {
+    background-color: pink; /* fondo rosita */
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center; /* centra el texto */
+    margin-top: 100px; /* baja el texto un poquito */
+}
+<body style="background-color:pink; font-family:Arial; font-size:12px; text-align:center;">body
+{
+    background-color: pink;
+    font-family: Arial;
+    font-size: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+<script src="script.js"></script>
